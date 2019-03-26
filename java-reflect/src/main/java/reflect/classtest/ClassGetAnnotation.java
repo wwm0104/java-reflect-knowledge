@@ -5,7 +5,7 @@ import reflect.po.BuyerPayment;
 
 import java.lang.annotation.Annotation;
 
-public class ClassTest {
+public class ClassGetAnnotation {
     public static void main(String[] args) {
         try {
             Class<?> aClass = Class.forName(BuyerPayment.class.getName());
