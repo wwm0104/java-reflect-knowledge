@@ -4,6 +4,11 @@ import reflect.po.Son;
 
 import java.lang.reflect.Type;
 
+/**
+ * 注意的点
+ * getClasses 获取该对应所有的包含继承而来的公共的类
+ * getDeclaredClasses  获取该类自身的类
+ */
 public class ClassGetClass {
     public static void main(String[] args) {
         Class<?>[] classes = Son.class.getClasses();

@@ -5,6 +5,11 @@ import reflect.po.BuyerPayment;
 
 import java.lang.annotation.Annotation;
 
+/**
+ * 注意的点
+ * getAnnotations 获取该对应所有的包含继承而来的注解
+ * getDeclaredAnnotations  获取该类自身的注解（不包含继承）
+ */
 public class ClassGetAnnotation {
     public static void main(String[] args) {
         try {
