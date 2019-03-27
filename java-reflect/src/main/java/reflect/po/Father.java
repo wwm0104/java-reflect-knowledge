@@ -1,7 +1,12 @@
 package reflect.po;
 
 public class Father extends  Grandfather{
+    public Father (){
 
+    }
+    public Father(int age){
+
+    }
     public class FatherPulic{
         int age;
     }

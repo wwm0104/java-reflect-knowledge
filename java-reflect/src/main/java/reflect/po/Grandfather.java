@@ -1,6 +1,12 @@
 package reflect.po;
 
 public class Grandfather {
+    public Grandfather(){
+
+    }
+    public Grandfather(int age){
+
+    }
     public class GrandFatherPulic{
         int age;
     }

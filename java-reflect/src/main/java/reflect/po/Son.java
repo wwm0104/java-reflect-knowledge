@@ -1,6 +1,15 @@
 package reflect.po;
 
 public class Son extends Father{
+    public Son(){
+
+    }
+    private Son(String name){
+
+    }
+    public Son(int age){
+
+    }
     public class SonPulic{
         int age;
     }
