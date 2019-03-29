@@ -1,6 +1,12 @@
 package reflect.po;
 
 public class Father extends  Grandfather{
+    private String fatherName;
+
+    public int fatherAge;
+
+    String fatherAddress;
+
     public Father (){
 
     }

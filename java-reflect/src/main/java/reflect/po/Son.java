@@ -1,6 +1,11 @@
 package reflect.po;
 
 public class Son extends Father{
+    private String sonName;
+
+    public int sonAge;
+
+     String sonAddress;
     public Son(){
 
     }
