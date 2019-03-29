@@ -6,7 +6,18 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public class Book {
+    public Book(){
 
+    }
+    public Book(String name,String address){
+        this.name = name;
+        this.address = address;
+    }
+    public Book(String name,BigDecimal amount,String address){
+        this.address = address;
+        this.name = name;
+        this.amount = amount;
+    }
     @BusinessNoAnnotation(businessNo = "test")
     private String name;
 
