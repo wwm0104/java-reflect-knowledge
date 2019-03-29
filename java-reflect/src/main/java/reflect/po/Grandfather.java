@@ -10,6 +10,15 @@ public class Grandfather {
     public Grandfather(){
 
     }
+    void grandFatherTest1(){
+
+    }
+    private void grandFatherTest2(){
+
+    }
+    public  void  grandFatherTest3(){
+
+    }
     public Grandfather(int age){
 
     }

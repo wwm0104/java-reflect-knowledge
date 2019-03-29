@@ -6,6 +6,15 @@ public class Son extends Father{
     public int sonAge;
 
      String sonAddress;
+     void sonTest1(){
+
+     }
+     private void sonTest2(){
+
+     }
+     public  void sonTest3(){
+
+     }
     public Son(){
 
     }

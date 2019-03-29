@@ -10,6 +10,15 @@ public class Father extends  Grandfather{
     public Father (){
 
     }
+    void fatherTest1(){
+
+    }
+    private void fatherTest2(){
+
+    }
+    public  void fatherTest3(){
+
+    }
     public Father(int age){
 
     }
