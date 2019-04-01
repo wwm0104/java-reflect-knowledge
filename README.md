@@ -16,3 +16,14 @@ java-reflect-knowledge
   +   获取该字段所属的类
   +   获取字段的类型
   
+*  Constructor 相关方法
+  
+   + 获取参数
+   + 获取实例
+   + 获取注解
+ 
+ *  Method 相关方法
+     +  获取所属的类
+     +  执行该方法
+ 
+ *   Proxy分析      

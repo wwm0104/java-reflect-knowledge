@@ -10,6 +10,9 @@ import java.io.FileOutputStream;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
+/**
+ * 注释已经表明
+ */
 public class Client {
     public static void main(String[] args) {
         try {
@@ -17,8 +20,6 @@ public class Client {
             InvocationHandler ds=new DynamicSubject(rs);
             Class<?> cls=rs.getClass();
             System.out.println(cls.getName());
-            //以下是一次性生成代理
-
             Subject subject=(Subject) Proxy.newProxyInstance(
                     cls.getClassLoader(),cls.getInterfaces(), ds);//等同于下面的方法
             //         Proxy.getProxyClass(loader, interfaces).getConstructor(new Class[] { InvocationHandler.class }).newInstance(new Object[] { handler });
